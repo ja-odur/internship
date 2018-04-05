@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server host=" EZULWINI DC WATCHDOG 1200" address="10.254.2.66" name="Watchdog 1200" owl-version="1075" product-version="3.16.3" pversion="7.01" mac-address="00:19:85:E5:15:ED" datetime="Wed, 08/16/17 18:11:59" company="Geist" company-url="http://www.geistglobal.com" support-email="support@geistglobal.com" support-phone="800.432.3219" support-phone-2="+1.402.474.3400" console-id="chh" tempunit="C" uptime="1123270" demo-mode="N" mp-rev="P" link-speed="100" link-duplex="full-duplex" link-time="1123269">
+
+<cameras>
+
+</cameras>
+<devices>
+
+<device id="01916244180000A8" name=" EZULWINI DC WATCHDOG 1200" type="Clim-THLFSA3" available="1" index="0">
+
+<field key="TempC" value="25.32" niceName="Temperature (C)" min="-40.0" max="123.8" type="2" order="0"/>
+
+<field key="TempF" value="77.57" niceName="Temperature (F)" min="-40.0" max="254.8" type="0" order="1"/>
+
+<field key="Humidity" value="35" niceName="Relative Humidity" min="0.0" max="100.0" type="2" order="2"/>
+
+<field key="DewPtC" value="8.76" niceName="Dew Point (C)" min="-40.0" max="123.8" type="2" order="9"/>
+
+<field key="DewPtF" value="47.78" niceName="Dew Point (F)" min="-40.0" max="254.8" type="0" order="10"/>
+
+<field key="Light" value="14" niceName="Light Level" min="1.0" max="100.0" type="2" order="3"/>
+
+<field key="Airflow" value="10" niceName="Air Flow" min="0.0" max="100.0" type="2" order="4"/>
+
+<field key="Sound" value="46" niceName="Sound Level" min="0.0" max="99.0" type="2" order="5"/>
+
+<field key="IO1" value="99" niceName="Main power not connected" min="0.0" max="99.0" type="2" order="6"/>
+
+<field key="IO2" value="99" niceName="UPS Power not connected" min="0.0" max="99.0" type="2" order="7"/>
+
+<field key="IO3" value="0" niceName="Not in use" min="0.0" max="0.0" type="2" order="8"/>
+
+</device>
+
+<device id="97000000CD6BF812" name="TEMP SENSOR 1 /B1 " type="t3hdSensor" available="1" index="1">
+
+<field key="TempC" value="23.04" niceName="Internal Temperature (C)" min="-40.0" max="123.8" type="2" order="0"/>
+
+<field key="TempF" value="73.48" niceName="Internal Temperature (F)" min="-40.0" max="254.8" type="0" order="1"/>
+
+<field key="Humidity" value="35" niceName="Internal Relative Humidity" min="0.0" max="99.0" type="2" order="2"/>
+
+<field key="DewPtC" value="6.74" niceName="Internal Dew Point (C)" min="-40.0" max="123.8" type="2" order="3"/>
+
+<field key="DewPtF" value="44.14" niceName="Internal Dew Point (F)" min="-40.0" max="254.8" type="0" order="4"/>
+
+<field key="Ext1TempC" value="20.18" niceName="Temp A Temperature (C)" min="-40.0" max="123.8" type="2" order="5"/>
+
+<field key="Ext1TempF" value="68.33" niceName="Temp A Temperature (F)" min="-40.0" max="254.8" type="0" order="6"/>
+
+<field key="Ext2TempC" value="21.12" niceName="Temp B Temperature (C)" min="-40.0" max="123.8" type="2" order="7"/>
+
+<field key="Ext2TempF" value="70.02" niceName="Temp B Temperature (F)" min="-40.0" max="254.8" type="0" order="8"/>
+
+</device>
+
+<device id="68000000CE442712" name=" TEMP SENSOR 2 /C5" type="t3hdSensor" available="1" index="2">
+
+<field key="TempC" value="27.17" niceName="Internal Temperature (C)" min="-40.0" max="123.8" type="2" order="0"/>
+
+<field key="TempF" value="80.91" niceName="Internal Temperature (F)" min="-40.0" max="254.8" type="0" order="1"/>
+
+<field key="Humidity" value="27" niceName="Internal Relative Humidity" min="0.0" max="99.0" type="2" order="2"/>
+
+<field key="DewPtC" value="6.54" niceName="Internal Dew Point (C)" min="-40.0" max="123.8" type="2" order="3"/>
+
+<field key="DewPtF" value="43.78" niceName="Internal Dew Point (F)" min="-40.0" max="254.8" type="0" order="4"/>
+
+<field key="Ext1TempC" value="27.00" niceName="Temp A Temperature (C)" min="-40.0" max="123.8" type="2" order="5"/>
+
+<field key="Ext1TempF" value="80.60" niceName="Temp A Temperature (F)" min="-40.0" max="254.8" type="0" order="6"/>
+
+<field key="Ext2TempC" value="26.06" niceName="Temp B Temperature (C)" min="-40.0" max="123.8" type="2" order="7"/>
+
+<field key="Ext2TempF" value="78.91" niceName="Temp B Temperature (F)" min="-40.0" max="254.8" type="0" order="8"/>
+
+</device>
+
+<device id="9F000000C8EFDD12" name="AIRFLOW SENSOR" type="airFlowSensor" available="1" index="3">
+
+<field key="TempC" value="14.06" niceName="Temperature (C)" min="-40.0" max="123.8" type="2" order="0"/>
+
+<field key="TempF" value="57.32" niceName="Temperature (F)" min="-40.0" max="254.8" type="0" order="1"/>
+
+<field key="Airflow" value="27" niceName="Air Flow" min="-1.0" max="99.0" type="2" order="2"/>
+
+<field key="Humidity" value="62" niceName="Relative Humidity" min="0.0" max="99.0" type="2" order="3"/>
+
+<field key="DewPtC" value="6.89" niceName="Dew Point (C)" min="-40.0" max="123.8" type="2" order="4"/>
+
+<field key="DewPtF" value="44.40" niceName="Dew Point (F)" min="-40.0" max="254.8" type="0" order="5"/>
+
+</device>
+
+</devices>
+<alarms>
+
+<alarm alarm-num="1" device-id="97000000CD6BF812" field="TempC" limtype="High" limit="33.0" delay="0" repeat="10" email="01234" trap="  " buzzer=" " actions=" " status="Untripped"/>
+
+<alarm alarm-num="2" device-id="97000000CD6BF812" field="Ext1TempC" limtype="High" limit="33.0" delay="0" repeat="10" email="01234" trap="  " buzzer=" " actions=" " status="Untripped"/>
+
+<alarm alarm-num="3" device-id="97000000CD6BF812" field="Ext2TempC" limtype="High" limit="33.0" delay="0" repeat="10" email="01234" trap="  " buzzer=" " actions=" " status="Untripped"/>
+
+<alarm alarm-num="4" device-id="68000000CE442712" field="TempC" limtype="High" limit="33.0" delay="0" repeat="10" email="012 4" trap="  " buzzer=" " actions=" " status="Untripped"/>
+
+<alarm alarm-num="5" device-id="68000000CE442712" field="Ext1TempC" limtype="High" limit="33.0" delay="0" repeat="10" email="01234" trap="  " buzzer=" " actions=" " status="Untripped"/>
+
+<alarm alarm-num="6" device-id="68000000CE442712" field="Ext2TempC" limtype="High" limit="33.0" delay="0" repeat="10" email="01234" trap="  " buzzer=" " actions=" " status="Untripped"/>
+
+<alarm alarm-num="7" device-id="9F000000C8EFDD12" field="TempC" limtype="High" limit="15.0" delay="0" repeat="10" email="01234" trap="01" buzzer=" " actions=" " status="Untripped"/>
+
+</alarms>
+
+</server>

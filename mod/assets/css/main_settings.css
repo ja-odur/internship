@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.verticalNav {
+    width: 200px;
+    min-height: 1000px;
+    float: left;
+    padding-top: 70px;
+}
+.nav-pills {
+    margin-top: 10px;
+}
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a {
+    color: black;
+    border: 1px solid rgba(60, 55, 155, 0.61);
+}
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a:hover {
+    background-color: rgba(60, 55, 155, 0.61);
+}
+
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a:active {
+    background-color: rgba(60, 55, 155, 0.61);
+    color: white;
+
+}
+
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a:focus {
+    background-color: rgba(60, 55, 155, 0.61);
+}
+
+
+
+.body-wrapper {
+    position: relative;
+    max-width: 100%;
+    /*overflow: hidden;*/
+
+}
+
+.content-wrapper {
+    width: auto;
+    min-height: 3000px;
+    padding-top: 75px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    float: left;
+    display: inline;
+    background-color: rgba(175, 169, 172, 0.04);
+    transition: all 0.5s ease-in-out;
+}
+
+.content-header {
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid rgba(60, 55, 155, 0.61);
+}
+
+.param-setup-wrapper {
+    width: 350px;
+    height: 475px;
+    margin: auto;
+    padding: auto;
+    /*border: 1px solid red;*/
+    padding-top: 10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+
+.device-template-wrapper {
+    margin: 20px ;
+    padding: 5px;
+    float: left;
+    border: 1.5px solid rgba(175, 169, 172, 0.36);
+    border-radius: 5px;
+    min-height: 200px;
+    width: auto;
+    background-color: #ffffff;
+}
+
+.detail-param-wrapper {
+    float: left;
+}
+.device-template-wrapper div .device-param {
+    width: 230px;
+    height: 40px;
+    border-bottom: 2px solid rgba(175, 169, 172, 0.2);
+    text-align: center;
+}
+.device-param div {
+    border: 1px solid black;
+    /*border: none;*/
+    display: inline;
+    line-height: 40px;
+}
+
+.device-details {
+    text-align: left;
+    width: 230px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-bottom: 4px solid rgba(175, 169, 172, 0.2);
+}
+
+.device-param {
+    position: relative;
+
+}
+
+.leftDiv-device-param {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.rightDiv-device-param {
+    position: absolute;
+    right: 0px;
+    min-width: 50px;
+    height: 40px;
+}
+
+.graph-canvas {
+    height: 200px;
+    width: auto;
+}
+
+/* jquery */
+
+.red {
+    background-color: #ff0000;
+}
+
+.orange {
+    background-color: rgb(255, 200, 26);
+}
+
+.green {
+    background-color: #00f200;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.skyblue {
+    background-color: #77bcd9;
+}

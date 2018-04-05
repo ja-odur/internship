@@ -1,0 +1,227 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Open Sans, arial, sans-serif;
+}
+#divider_main_nav {
+    width: 100px;
+    height: 1px;
+}
+#main_nav-wrapper, #main-nav-ul, #main-nav-ul > li, #main-nav-ul >li>a, navbar-brand {
+    min-height:75px !important;
+    background-color: yellow;
+}
+#main-nav-ul >li>a {
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+#main-nav-ul >li>a:hover, #main-nav-ul >li>a:focus {
+    background-color: white;
+}
+.active > a {
+    background-color:white !important;
+}
+#divider_main_nav > a:hover, #divider_main_nav > a:focus, #divider_main_nav > a:active {
+    background-color: yellow !important;
+    cursor: default;
+}
+
+.dropdown-toggle.notify {
+    position: relative;
+    width: 150px;
+}
+
+
+
+
+div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a {
+    color: black;
+    border-left:2px solid white;
+}
+
+div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:hover {
+    background-color: white;
+}
+
+div.navbar-collapse.collapse > ul.nav.navbar-nav > li:active {
+    background-color: white;
+}
+
+div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:focus {
+    background-color: white;
+}
+
+.activeNav > a{
+    background-color: blue !important;
+    color: white !important;
+}
+
+.verticalNav {
+    width: 200px;
+    min-height: 2000px;
+    margin-top: 5px;
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    float: left;
+}
+.nav-pills {
+    margin-top: 10px;
+}
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a {
+    color: black;
+    border: 1px solid blue;
+}
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+
+
+.verticalNav > div.container-fluid > ul.nav.nav-pills.nav-stacked > li > a:focus {
+    color: white;
+    background-color: blue;
+}
+
+#dropdown-cat {
+    border-color: blue;
+}
+
+ul.dropdown > li.divider {
+    width: auto;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+#dropdown-cat > li > a:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+
+.btn-toggle-nav {
+    position: absolute;
+    top: 5px;
+    border-radius: 0;
+    width: 25px;
+    height: auto;
+    border: none;
+    border: 1px solid blue;
+    background-color: blue;
+    opacity: 0.8;
+    z-index: 2000;
+    transition: all 0.6s ease-in-out;
+}
+.btn-position {
+    left: 200px;
+}
+
+.body-wrapper {
+    position: relative;
+    top: 75px;
+}
+
+.content-wrapper {
+    width: auto;
+    min-height: 3000px;
+    padding-top: 5px;
+    margin: auto;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 200px;
+    float: left;
+    display: inline;
+    /*background-color: rgba(175, 169, 172, 0.04);*/
+    transition: all 0.5s ease-in-out;
+}
+
+.zoom-content-wrapper {
+    left: 0;
+    width: 100% !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.zoom-button {
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+
+#tableAlert {
+    width:95%;
+    margin:auto;
+}
+
+.tableAlert-wrapper {
+    width: 100%;
+}
+
+.zoom {
+    width: 100%;
+}
+.container .tableAlert-wrapper {
+    transition: all 1s ease-in-out;
+}
+
+.all_header {
+    text-align: center;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+.all_header > small {
+    color: white;
+}
+
+#category > span {
+    margin-left: 70px;
+}
+
+.circle-template {
+    height: 250px;
+    width: 200px;
+    margin-top:20px;
+    margin-left: 20px;
+    float: left;
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px black;
+    padding: 2px;
+}
+
+.uganda_DC {
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
+    font-size: 8px;
+
+    margin: 0px;
+}
+
+.dc-label {
+    border: 1px solid white;
+    position: absolute;
+    background-color: white;
+}
+
+.graph-template {
+    width: 450px;
+    height: 355px;
+    margin-left: 30px;
+    margin-top:10px;
+    padding:5px;
+    float: left;
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px black;
+}
+
+
+
+
